@@ -111,5 +111,6 @@ dist
 .DS_Store
 
 #dotnet
-**/bin/*
-**/obj/*
+bin
+obj
+packages
