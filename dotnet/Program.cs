@@ -22,8 +22,8 @@ namespace examples_dotnet
     {
         static async Task Main(string[] args)
         {
-            var connectionString = "...";
-            var eventHubName = "...";
+            var connectionString = "Endpoint=sb://idpiot-eventhub-namespace.servicebus.windows.net/;SharedAccessKeyName=idpiothubroutes;SharedAccessKey=CtsghwG69JOR+e0O666/wAlKvgXcNV/e5+wysfHO9+k=;EntityPath=idpiot-eventhub";
+            var eventHubName = "idpiot-eventhub";
             var consumerGroup = EventHubConsumerClient.DefaultConsumerGroupName;
 
             var consumer = new EventHubConsumerClient(
